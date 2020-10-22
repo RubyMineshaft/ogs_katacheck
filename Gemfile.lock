@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    ogs_katacheck (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (1.1.0)
+      multipart-post (>= 1.2, < 3)
+      ruby2_keywords
+    multipart-post (2.1.1)
+    rake (12.3.0)
+    ruby2_keywords (0.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  faraday
+  ogs_katacheck!
+  rake (~> 12.0)
+
+BUNDLED WITH
+   2.1.4

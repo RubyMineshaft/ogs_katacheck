@@ -1,4 +1,7 @@
 # Change Log
 
 ### 0.1.0
-- Added ability to check games against OGS full reviews. 
+- Added ability to check games against OGS full reviews.
+
+### 0.1.1
+- add ogs-katacheck executable 
