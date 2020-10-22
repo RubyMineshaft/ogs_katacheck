@@ -22,9 +22,9 @@ You will be asked to enter a game ID. This can be simply copied and pasted from 
 
 You will then be presented with a list of available OGS AI reviews. **Only full reviews** are useable with this tool.  If you do not see a full review in the list, open the game in OGS and run a full review. Once the server has completed the review, re-run the tool.
 
-The tool will output the number of user submitted moves that match the top 4 moves suggested by the AI in the review. Obviously tier 1 and tier 2 moves are more important to look at, but the overall percentages can also be useful.
+The tool will output the number of user submitted moves that match the top 4 moves suggested by the AI in the review. Obviously, `tier 1` and `tier 2` moves are most important to look at, but the overall percentages can also be helpful.
 
-Note: A high percentage match in a game does not necessarily mean the user is cheating, but high percentage matches across many games will certainly warrant further investigation.
+***Note:** A high percentage match in a game does not necessarily mean the user is cheating, but high percentage matches across many games will certainly warrant further investigation.*
 
 ## Development
 
