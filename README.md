@@ -18,6 +18,10 @@ After installing OGS KataCheck, you can run it by opening a terminal and typing:
 
     $ ogs-katacheck
 
+or
+
+    $ katacheck
+
 You will be asked to enter a game ID. This can be simply copied and pasted from OGS.
 
 You will then be presented with a list of available OGS AI reviews. **Only full reviews** are useable with this tool.  If you do not see a full review in the list, open the game in OGS and run a full review. Once the server has completed the review, re-run the tool.
