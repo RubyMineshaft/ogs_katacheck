@@ -6,7 +6,7 @@ It pulls game information from the OGS API and checks the user submitted moves a
 
 ## Installation
 
-You will need to have Ruby installed on your machine to run this CLI. If you are using a Mac, this is already done for you. If on a Windows machine you can install it by following [these instructions](https://stackify.com/install-ruby-on-windows-everything-you-need-to-get-going/).
+**You will need to have Ruby installed on your machine to run this CLI.** If you are using a Mac, this is already done for you. If on a Windows machine you can install it by following [these instructions](https://stackify.com/install-ruby-on-windows-everything-you-need-to-get-going/). You can verify that everything is installed properly by running `ruby -v` and `gem -v`, you should see versions for both after running these commands. 
 
 To install this Gem, open a terminal and run:
 
