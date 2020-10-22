@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ogs_katacheck (0.1.1)
+    ogs_katacheck (0.1.2)
 
 GEM
   remote: https://rubygems.org/
