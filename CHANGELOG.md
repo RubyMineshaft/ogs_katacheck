@@ -8,3 +8,6 @@
 
 ### 0.1.2
 - add `katacheck` executable
+
+### 0.1.3
+- bug fix
