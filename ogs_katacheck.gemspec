@@ -23,6 +23,6 @@ Gem::Specification.new do |spec|
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
   spec.bindir        = "bin"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.executables   = ["ogs-katacheck", "katacheck", "ogs_katacheck"]
   spec.require_paths = ["lib"]
 end
