@@ -1,4 +1,3 @@
-require 'pry'
 require 'faraday'
 require 'json'
 require_relative "./ogs_katacheck/version"
