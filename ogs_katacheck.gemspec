@@ -3,19 +3,19 @@ require_relative 'lib/ogs_katacheck/version'
 Gem::Specification.new do |spec|
   spec.name          = "ogs_katacheck"
   spec.version       = OGSKataCheck::VERSION
-  spec.authors       = ["mattetress"]
-  spec.email         = ["mattetress@me.com"]
+  spec.authors       = ["RubyMineshaft"]
+  spec.email         = ["rubymineshaft@online-go.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{CLI that checks user submitted moves against AI game reviews.}
+  spec.description   = %q{This CLI gem is written for OGS team members in order to aid in investigating suspicions of botting.}
+  spec.homepage      = "https://github.com/RubyMineshaft/ogs_katacheck"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
+  # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["changelog_uri"] = "https://github.com/RubyMineshaft/ogs_katacheck/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
