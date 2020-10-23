@@ -1,7 +1,8 @@
 PATH
   remote: .
   specs:
-    ogs_katacheck (0.1.4)
+    ogs_katacheck (0.1.5)
+      faraday
 
 GEM
   remote: https://rubygems.org/
