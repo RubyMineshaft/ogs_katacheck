@@ -25,18 +25,21 @@ class FullReview
   end
 
   def self.destroy_all
-    self.all.clear 
+    self.all.clear
   end
 
   def calculate_percentages
-    @black_tier_1[1] = @black_tier_1[0].to_f / @total_moves / 2 * 100
-    @black_tier_2[1] = @black_tier_2[0].to_f / @total_moves / 2 * 100
-    @black_tier_3[1] = @black_tier_3[0].to_f / @total_moves / 2 * 100
-    @black_tier_4[1] = @black_tier_4[0].to_f / @total_moves / 2 * 100
-    @white_tier_1[1] = @white_tier_1[0].to_f / @total_moves / 2 * 100
-    @white_tier_2[1] = @white_tier_2[0].to_f / @total_moves / 2 * 100
-    @white_tier_3[1] = @white_tier_3[0].to_f / @total_moves / 2 * 100
-    @white_tier_4[1] = @white_tier_4[0].to_f / @total_moves / 2 * 100
+    white_moves = (@total_moves / 2.0).floor
+    black_moves = (@total_moves / 2.0).ceil
+
+    @black_tier_1[1] = @black_tier_1[0].to_f / black_moves * 100
+    @black_tier_2[1] = @black_tier_2[0].to_f / black_moves * 100
+    @black_tier_3[1] = @black_tier_3[0].to_f / black_moves * 100
+    @black_tier_4[1] = @black_tier_4[0].to_f / black_moves * 100
+    @white_tier_1[1] = @white_tier_1[0].to_f / white_moves * 100
+    @white_tier_2[1] = @white_tier_2[0].to_f / white_moves * 100
+    @white_tier_3[1] = @white_tier_3[0].to_f / white_moves * 100
+    @white_tier_4[1] = @white_tier_4[0].to_f / white_moves * 100
 
     @black_total[0] = @black_tier_1[0] + @black_tier_2[0] + @black_tier_3[0] + @black_tier_4[0]
     @white_total[0] = @white_tier_1[0] + @white_tier_2[0] + @white_tier_3[0] + @white_tier_4[0]
