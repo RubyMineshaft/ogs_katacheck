@@ -6,7 +6,7 @@ It pulls game information from the OGS API and checks the user submitted moves a
 
 ## Installation
 
-**You will need to have Ruby installed on your machine to run this CLI.** If you are using a Mac, this should already be done for you. If on a Windows machine you can install it by following [these instructions](https://stackify.com/install-ruby-on-windows-everything-you-need-to-get-going/). You can verify that everything is installed properly by running `ruby -v` and `gem -v`, you should see versions for both after running these commands. 
+**You will need to have Ruby installed on your machine to run this CLI.** If you are using a Mac, this should already be done for you. If on a Windows machine you can install it by following [these instructions](https://stackify.com/install-ruby-on-windows-everything-you-need-to-get-going/). You can verify that everything is installed properly by running `ruby -v` and `gem -v`, you should see versions for both after running these commands.
 
 To install this Gem, open a terminal and run:
 
@@ -33,12 +33,6 @@ The tool will output the number of user submitted moves that match the top 4 mov
 ![Output Example](https://github.com/RubyMineshaft/ogs_katacheck/blob/main/images/output.png)
 
 ***Note:** A high percentage match in a game does not necessarily mean the user is cheating, but high percentage matches across many games will certainly warrant further investigation.*
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
 ## Contributing
 
