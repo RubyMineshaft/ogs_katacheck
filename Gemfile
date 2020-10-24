@@ -6,5 +6,5 @@ gemspec
 gem "rake", "~> 12.0"
 gem 'faraday'
 gem 'colorize'
-gem "tty-table"
+gem "terminal-table"
 # gem 'pry'
