@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ogs_katacheck (0.1.5)
+    ogs_katacheck (0.1.6)
       faraday
 
 GEM
