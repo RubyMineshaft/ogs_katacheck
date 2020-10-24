@@ -16,4 +16,7 @@
 - bug fix
 
 ### 0.1.5
-- bug fix 
+- bug fix
+
+### 0.1.6
+- fixes bug in the way percentages are calculated

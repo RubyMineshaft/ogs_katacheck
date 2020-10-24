@@ -27,3 +27,5 @@ Gem::Specification.new do |spec|
   spec.executables   = ["ogs-katacheck", "katacheck"]
   spec.require_paths = ["lib"]
 end
+
+# to release, bump version and run `bundle exec rake release` 
