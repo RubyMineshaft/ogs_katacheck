@@ -37,7 +37,8 @@ class OGSKataCheck::CLI
     puts "The following reviews are available:"
 
     Review.all.each do |review|
-      puts "#{review.number}.  #{review.id} - #{review.engine} - #{review.type} - #{review.date}"
+      review.date = Time.new(review.date.slice(0,4), review.date.slice(5, 2), review.date.slice(8, 2), review.date.slice(11, 2), review.date.slice(14, 2), review.date.slice(17, 2), "+00:00")
+      puts "#{review.number}.  #{review.id} -- #{review.engine} -- #{review.type} -- #{review.date.localtime.strftime("%e %b %Y, %I:%M%p %Z")}"
     end
 
     puts ""

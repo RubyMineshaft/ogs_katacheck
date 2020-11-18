@@ -1,5 +1,8 @@
 require 'faraday'
 require 'json'
+require 'colorize'
+require 'win32console'
+require 'terminal-table'
 require_relative "./ogs_katacheck/version"
 require_relative "./ogs_katacheck/cli"
 require_relative "./ogs_katacheck/review"

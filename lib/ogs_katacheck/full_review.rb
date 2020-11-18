@@ -1,5 +1,5 @@
 class FullReview
-  attr_accessor :win_rates, :scores, :id, :type, :game_id, :engine, :engine_version, :network, :network_size, :date, :strength, :win_rate, :moves,
+  attr_accessor :win_rates, :uuid, :scores, :id, :type, :game_id, :engine, :engine_version, :network, :network_size, :date, :strength, :win_rate, :moves,
     :total_moves, :black_tier_1, :black_tier_2, :black_tier_3, :black_tier_4, :white_tier_1, :white_tier_2, :white_tier_3, :white_tier_4, :black_total, :white_total
 
   @@all = []

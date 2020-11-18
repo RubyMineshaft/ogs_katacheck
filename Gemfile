@@ -5,4 +5,10 @@ gemspec
 
 gem "rake", "~> 12.0"
 gem 'faraday'
+gem 'colorize'
+gem "terminal-table"
 # gem 'pry'
+
+if RUBY_PLATFORM =~ /win32/
+  gem 'win32console'
+end
