@@ -20,3 +20,7 @@
 
 ### 0.1.6
 - fixes bug in the way percentages are calculated
+
+### 0.2.0
+- new formatting for output table
+- fixes error introduced by new uuid attribute on reviews 
