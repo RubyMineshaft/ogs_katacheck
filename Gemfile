@@ -8,3 +8,7 @@ gem 'faraday'
 gem 'colorize'
 gem "terminal-table"
 # gem 'pry'
+
+if RUBY_PLATFORM =~ /win32/
+  gem 'win32console'
+end

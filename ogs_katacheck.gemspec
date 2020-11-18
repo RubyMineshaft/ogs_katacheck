@@ -23,9 +23,11 @@ Gem::Specification.new do |spec|
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
   spec.add_runtime_dependency "faraday"
+  spec.add_runtime_dependency "terminal-table"
+  spec.add_runtime_dependency "win32console"
   spec.bindir        = "bin"
   spec.executables   = ["ogs-katacheck", "katacheck"]
   spec.require_paths = ["lib"]
 end
 
-# to release, bump version and run `bundle exec rake release` 
+# to release, bump version and run `bundle exec rake release`
