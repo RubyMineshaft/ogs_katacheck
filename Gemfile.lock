@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    ogs_katacheck (0.2.0)
+    ogs_katacheck (0.2.1)
       faraday
       terminal-table
 
