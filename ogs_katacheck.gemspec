@@ -24,7 +24,6 @@ Gem::Specification.new do |spec|
   end
   spec.add_runtime_dependency "faraday"
   spec.add_runtime_dependency "terminal-table"
-  spec.add_runtime_dependency "win32console"
   spec.bindir        = "bin"
   spec.executables   = ["ogs-katacheck", "katacheck"]
   spec.require_paths = ["lib"]
