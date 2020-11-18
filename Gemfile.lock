@@ -1,8 +1,9 @@
 PATH
   remote: .
   specs:
-    ogs_katacheck (0.1.6)
+    ogs_katacheck (0.2.0)
       faraday
+      terminal-table
 
 GEM
   remote: https://rubygems.org/
